@@ -57,3 +57,13 @@ switch(color) {
     default:
         console.log("Minu auto värv on " + color);
 }
+
+/*
+* Tingimused saame luua erineva võrdlusega.
+* === -> Võrdleb, kas mõlemad pooled on võrdsed ja kas nende andmetüüp on sama.
+* == -> Võrdleb pooli ilma andmetüüpi kontrollimata.
+* */
+
+console.log("=== " + (1 === 1));
+console.log("=== " + ("1" === 1));
+console.log("== " + ("1" == 1));
