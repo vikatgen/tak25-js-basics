@@ -40,4 +40,23 @@ age = 40;
 // Konsooli logimiseks kasutame console.log() meetodit.
 console.log(age);
 
+/*
+* Muutuja skoobid -> globaalne, funktsiooniskoop ja koodiblokiskoop
+*
+* Kui muutuja on globaalses skoobis, siis me saame seda muutujat välja kutsuda teistes skoopides (function & block scope.)
+* Koodiplokkides defineeritud muutujaid me ei saa kasutadada väljaspool seda koodiploki skoopi.
+*
+* Hoisting (üles upitama) -> Kui faili jooksutatakse, siis igas koodiplokis tõstetakse seal tehtud muutujad kõige esimeseks.
+* */
+
+function printAge() {
+    console.log("See on enne muutuja tegemist.")
+    let myAge = 67; // Seda defineeritud muutujat me ei saa väljaspool seda funktsiooni kasutada.
+    console.log("Aga kui see fail jookseb, siis tõstetakse myAge muutuja kõige esimeseks funktiooni sees (skoobis)");
+}
+
+// Siin me ei saa myAge näiteks välja konsoolida (ReferenceError: myAge is not defined), sest globaalne skoop ei tea, mis tehakse antud funtktsiooniskoobis.
+
+
+
 
