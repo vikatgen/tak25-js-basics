@@ -57,6 +57,15 @@ function printAge() {
 
 // Siin me ei saa myAge näiteks välja konsoolida (ReferenceError: myAge is not defined), sest globaalne skoop ei tea, mis tehakse antud funtktsiooniskoobis.
 
+/*
+* typeof operaator
+* */
+
+console.log(typeof isHandsome);
+console.log(typeof isTomorrowGoodDay);
+console.log(typeof age);
+console.log(typeof personName);
+
 
 
 

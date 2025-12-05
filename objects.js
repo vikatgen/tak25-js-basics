@@ -40,6 +40,11 @@ console.log(carProperties);
 * Number, Math, Date, String, Error, Function, Boolean
 *
 * Built-in objektide küljes on väga palju erinevaid gettereid ja settereid.
+*
+* Kui me muudame ise andmetüüpe, kutsume seda explicit type casting (Type Casting)
+* Kui programmeerimiskeel muudab runtime keskkonnas andmetüüpe, seda kutsume Implicit Type Casting
+* Type Casting => andmetüübi konverteerimine teise tüüpi (kui see on võimalik.)
+*
 * */
 
 const currentDate = Date();
@@ -48,5 +53,10 @@ console.log(currentDate);
 const randomNumber = Math.random();
 console.log(randomNumber);
 
-const numberAsString = "25";
-console.log(Number(numberAsString));
+const numberAsString = "25"; // Kui ei saa konvertida numbriks, siis on väärtus NaN => Not an Number
+Number(numberAsString);
+console.log(numberAsString);
+
+const stringAsNumber = 25;
+String(stringAsNumber);
+console.log(stringAsNumber);
