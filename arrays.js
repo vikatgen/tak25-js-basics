@@ -7,6 +7,9 @@
 * Massiivi saab panna erinevad andmetüübid kokku.
 * Massiividele on JS keelde sisseehitatud meetodid.
 *
+* https://javascript.info/array
+* https://javascript.info/array-methods
+*
 * */
 
 const students = ["Jan", "Kevin", "Karl", "Mika", "Kalmet"];
