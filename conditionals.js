@@ -19,6 +19,7 @@ if (currentYear < 2020) {
 }
 
 // Lühike versioon tingimuslausest.
+// Shorthand
 let returnSentence;
 console.log(returnSentence);
 currentYear < 2020 ? returnSentence = "Väiksem" : returnSentence = "Suurem";

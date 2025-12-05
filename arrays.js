@@ -1,7 +1,7 @@
 /*
 * ARRAY
 *
-* Indekseeritud massiiv.
+* Indekseeritud massiiv. (Indekseeritud kollektsioon)
 * Massiivi tunneme ära [...] märgiste järgi. [1, 2, 3]
 * Indektseerimine hakkab 0st.
 * Massiivi saab panna erinevad andmetüübid kokku.
